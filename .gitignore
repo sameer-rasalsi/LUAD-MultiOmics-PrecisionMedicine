@@ -1,0 +1,73 @@
+﻿# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+venv/
+.venv/
+env/
+ENV/
+
+# R
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+
+# IDE and system
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+credentials.json
+secrets/
+config.local.yaml
+
+# Raw sequencing data
+*.fastq
+*.fastq.gz
+*.fq
+*.fq.gz
+*.bam
+*.bai
+*.cram
+*.crai
+*.sam
+*.sra
+
+# Large genomic files
+*.bigWig
+*.bw
+*.bedGraph
+*.wig
+*.h5
+*.hdf5
+
+# Archives and temporary files
+*.tar
+*.tar.gz
+*.7z
+*.tmp
+*.temp
+*.swp
+*.bak
+*.old
+*.log
+
+# Machine learning artifacts
+*.pkl
+*.pickle
+*.joblib
+*.pt
+*.pth
+*.ckpt
+
+# Local datasets
+local_data/
+raw_data/
+private_data/
